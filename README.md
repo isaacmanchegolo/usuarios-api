@@ -52,4 +52,6 @@ Las pruebas de integración comprueban la carga inicial y ambos endpoints.
 
 ## Captura de funcionamiento
 
-Tras ejecutar la aplicación, realiza una petición a `GET /api/usuarios` con el navegador, Postman o `curl` y añade aquí una captura de la respuesta antes de entregar el repositorio.
+La siguiente captura muestra la respuesta de `GET /api/usuarios` con los tres usuarios cargados desde `data.sql`.
+
+![Respuesta de GET /api/usuarios](capturas/endpoint-usuarios.png)
