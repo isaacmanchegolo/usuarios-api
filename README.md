@@ -40,7 +40,7 @@ Respuesta esperada:
 
 ## Base de datos
 
-La configuración usa H2 en memoria (`usuariosdb`). Los tres registros iniciales se cargan desde `src/main/resources/data.sql`. La consola de H2 está disponible en `http://localhost:8080/h2-console` mientras la aplicación está ejecutándose; usa la URL JDBC `jdbc:h2:mem:usuariosdb`, usuario `sa` y contraseña vacía.
+La configuración usa H2 en memoria (`usuariosdb`). Los 3 registros iniciales se cargan desde `src/main/resources/data.sql`. La consola de H2 está dispoonible en `http://localhost:8080/h2-console` mientras la aplicación está ejecutándose, usa la URL JDBC `jdbc:h2:mem:usuariosdb`, usuario `sa` y contraseña vacía.
 
 ## Pruebas
 
@@ -48,7 +48,7 @@ La configuración usa H2 en memoria (`usuariosdb`). Los tres registros iniciales
 mvn test
 ```
 
-Las pruebas de integración comprueban la carga inicial y ambos endpoints.
+Las pruebas de integración comprueban la carga inicail y ambos endpoints.
 
 ## Captura de funcionamiento
 
